@@ -1,0 +1,58 @@
+#button-box {
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .buttons:hover {
+    color: white;
+    background-color: rgba(178, 253, 56, 0.75)
+  }
+  .buttons {
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition-duration: 0.5s;
+  }
+
+  #score-box {
+    text-align: center;
+  }
+  .top-buttons {
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+  }
+
+  #container {
+    position:center;
+    top: 30px;
+    background-color: rgba(178, 253, 56, 0.75);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 50px;
+    border: 5px solid black;
+    /*border-radius: 20px;*/
+    overflow: auto;
+  }
+  
+  #game-text {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    color: black;
+  }
+
+  h1 {
+    color: rgb(178, 253,56);
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+  }

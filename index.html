@@ -1,28 +1,45 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> -->
+    <!-- <iframe src="https://giphy.com/embed/lA5yV4xrvUIdq" width="500" height="250" frameBorder="00" class="giphy-embed" allowFullScreen></iframe> -->
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SpaceWars</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="space.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
+<div id='button-box'>
+    <div class='button'>
+      <!-- <button id='start' class='buttons'>START</button> -->
+      <h1 id='tester'>SPACEBATTLE</h1>
+            
+      <div id='score-box'>
+      <button id='victories' class='top-buttons'>Wins:<span id='victory-score'> 0</span></button>
+      <button id='hull' class='top-buttons'>Hull:<span id='hitpoints'> 15</span></button>
+      <button id='enemy' class='top-buttons'>Enemy Health:<span id='enemy-health'> 0</span></button>
+      <button id='enemies' class='top-buttons'>Current Foe:<span id='enemy-name'> </span></button>
+    </div>
+      <button id='start' class='buttons'>START</button>
+      <button id='attack' class='buttons'>ATTACK</button>
+      <button id='retreat' class='buttons'>RETREAT</button>
+      <button id='restart' class='buttons'>RESTART</button>
+    </div>
 <body>
     <div class="bodyContainer">
 
         <div class="mainCharacterView left" >
-                <div class="nameBox">USS Schwarzenegger</div>
+                <div class="nameBox">USS Titan</div>
                 <div class="playerImage"></div>
                 <div class="playerStats">
-
                 Hull : 15 <br>
                 FirePower : 5 <br>
                 Accuracy : .7 <br>
-
-z
 
                 </div>
 
@@ -42,8 +59,14 @@ z
                 </div>
             
         </div>
-<!-- hello all -->
+
+        <div id='container'>
+        <div id='game-text'></div>
+        </div>
+
+
 
     <script src="app.js"></script>
+    <script src="spaceBattle.js"></script>
 </body>
 </html>
